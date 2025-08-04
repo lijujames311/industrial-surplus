@@ -1,9 +1,4 @@
-async function loadCatalog() {
-  try {
-    const response = await fetch('catalog.json');
-    const data = await response.json();
-    const grid = document.getElementById('catalog-grid');
-    data.forEach(item => {
+
       const card = document.createElement('div');
       card.className = 'card';
       card.innerHTML = `
@@ -18,11 +13,4 @@ async function loadCatalog() {
       `;
       grid.appendChild(card);
     });
-  } catch (err) {
-    console.error('Failed to load catalog', err);
-    const grid = document.getElementById('catalog-grid');
-    grid.innerHTML = '<p>Failed to load catalog data.</p>';
-  }
-}
 
-document.addEventListener('DOMContentLoaded', loadCatalog);
