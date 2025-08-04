@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "photos": [
+      "wheel1_photo1.jpg",
+      "wheel1_photo2.jpg"
+    ],
+    "geometry": "wheel1_geometry.jpg",
+    "group": 0,
+    "segment": [
+      0,
+      13
+    ]
+  },
+  {
+    "id": 2,
+    "photos": [
+      "wheel2_photo1.jpg",
+      "wheel2_photo2.jpg"
+    ],
+    "geometry": "wheel2_geometry.jpg",
+    "group": 0,
+    "segment": [
+      14,
+      16
+    ]
+  },
+  {
+    "id": 3,
+    "photos": [
+      "wheel3_photo1.jpg",
+      "wheel3_photo2.jpg"
+    ],
+    "geometry": null,
+    "group": 1,
+    "segment": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": 4,
+    "photos": [
+      "wheel4_photo1.jpg",
+      "wheel4_photo2.jpg"
+    ],
+    "geometry": "wheel4_geometry.jpg",
+    "group": 2,
+    "segment": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "photos": [
+      "wheel5_photo1.jpg",
+      "wheel5_photo2.jpg"
+    ],
+    "geometry": null,
+    "group": 4,
+    "segment": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": 6,
+    "photos": [
+      "wheel6_photo1.jpg"
+    ],
+    "geometry": null,
+    "group": 5,
+    "segment": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 7,
+    "photos": [
+      "wheel7_photo1.jpg",
+      "wheel7_photo2.jpg"
+    ],
+    "geometry": null,
+    "group": 6,
+    "segment": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": 8,
+    "photos": [
+      "wheel8_photo1.jpg",
+      "wheel8_photo2.jpg"
+    ],
+    "geometry": null,
+    "group": 7,
+    "segment": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": 9,
+    "photos": [
+      "wheel9_photo1.jpg",
+      "wheel9_photo2.jpg"
+    ],
+    "geometry": "wheel9_geometry.jpg",
+    "group": 8,
+    "segment": [
+      0,
+      10
+    ]
+  },
+  {
+    "id": 10,
+    "photos": [
+      "wheel10_photo1.jpg",
+      "wheel10_photo2.jpg"
+    ],
+    "geometry": "wheel10_geometry.jpg",
+    "group": 8,
+    "segment": [
+      11,
+      20
+    ]
+  },
+  {
+    "id": 11,
+    "photos": [
+      "wheel11_photo1.jpg",
+      "wheel11_photo2.jpg"
+    ],
+    "geometry": "wheel11_geometry.jpg",
+    "group": 9,
+    "segment": [
+      0,
+      17
+    ]
+  },
+  {
+    "id": 12,
+    "photos": [
+      "wheel12_photo1.jpg",
+      "wheel12_photo2.jpg"
+    ],
+    "geometry": "wheel12_geometry.jpg",
+    "group": 9,
+    "segment": [
+      18,
+      37
+    ]
+  },
+  {
+    "id": 13,
+    "photos": [
+      "wheel13_photo1.jpg",
+      "wheel13_photo2.jpg"
+    ],
+    "geometry": "wheel13_geometry.jpg",
+    "group": 10,
+    "segment": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": 14,
+    "photos": [
+      "wheel14_photo1.jpg",
+      "wheel14_photo2.jpg"
+    ],
+    "geometry": null,
+    "group": 11,
+    "segment": [
+      0,
+      8
+    ]
+  },
+  {
+    "id": 15,
+    "photos": [
+      "wheel15_photo1.jpg",
+      "wheel15_photo2.jpg"
+    ],
+    "geometry": "wheel15_geometry.jpg",
+    "group": 12,
+    "segment": [
+      1,
+      14
+    ]
+  },
+  {
+    "id": 16,
+    "photos": [
+      "wheel16_photo1.jpg",
+      "wheel16_photo2.jpg"
+    ],
+    "geometry": "wheel16_geometry.jpg",
+    "group": 12,
+    "segment": [
+      15,
+      18
+    ]
+  },
+  {
+    "id": 17,
+    "photos": [
+      "wheel17_photo1.jpg",
+      "wheel17_photo2.jpg"
+    ],
+    "geometry": "wheel17_geometry.jpg",
+    "group": 13,
+    "segment": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": 18,
+    "photos": [
+      "wheel18_photo1.jpg",
+      "wheel18_photo2.jpg"
+    ],
+    "geometry": "wheel18_geometry.jpg",
+    "group": 13,
+    "segment": [
+      4,
+      25
+    ]
+  }
+]
