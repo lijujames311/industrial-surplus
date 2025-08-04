@@ -1,14 +1,11 @@
 # Industrial Surplus Hub – Static Catalog Site
 
-This repository contains a fully‑static HTML/CSS/JS catalog for surplus industrial equipment including gear grinding wheels, mounting hubs and precision gauges. The site is fast, mobile‑friendly and exposes only buyer‑relevant information.
 
 ## Structure
 
 ```
 ├── index.html                  # Home page
-├── catalog.html                # Grid/list of all inventory
-├── contact.html                # Contact form using Formspree
-├── *.html                      # Individual item detail pages
+
 ├── catalog.csv                 # Master catalog data (for future import/export)
 ├── assets/
 │   ├── css/style.css           # Single CSS file for layout and styling
@@ -18,10 +15,10 @@ This repository contains a fully‑static HTML/CSS/JS catalog for surplus indust
 
 ## Development
 
-All pages are static and can be previewed locally by opening `index.html` in your browser.  If you wish to modify catalog entries or add new wheels in the future:
+All pages are static and can be previewed locally by opening `index.html` in your browser.  If you wish to modify catalog entries or add new items in the future:
 
 1.  Update `catalog.csv` with a new row using the existing header structure.  Keep descriptions short and avoid any proprietary information.
-2.  Place two optimized images for the wheel into `assets/web_images/` and reference them in the `photo1` and `photo2` columns (omit `photo2` if you only have one photo).
+2.  Place two optimized images for the item into `assets/web_images/` and reference them in the `photo1` and `photo2` columns (omit `photo2` if you only have one photo).
 3.  Rebuild the HTML files by running the Python generator script used during initial creation (not included here).  For simple updates you can manually duplicate an existing detail page and adjust the fields.
 
 ## Deployment on Cloudflare Pages
