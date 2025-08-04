@@ -1,14 +1,14 @@
 # Industrial Surplus Hub – Static Catalog Site
 
-This repository contains a fully‑static HTML/CSS/JS catalog for surplus gear grinding wheels.  The site has been built to be fast, mobile‑friendly and secure while exposing only buyer‑relevant information.
+This repository contains a fully‑static HTML/CSS/JS catalog for surplus industrial equipment including gear grinding wheels, mounting hubs and precision gauges. The site is fast, mobile‑friendly and exposes only buyer‑relevant information.
 
 ## Structure
 
 ```
 ├── index.html                  # Home page
-├── catalog.html                # Grid/list of all wheels
+├── catalog.html                # Grid/list of all inventory
 ├── contact.html                # Contact form using Formspree
-├── *.html                      # Individual wheel detail pages (one per wheel)
+├── *.html                      # Individual item detail pages
 ├── catalog.csv                 # Master catalog data (for future import/export)
 ├── assets/
 │   ├── css/style.css           # Single CSS file for layout and styling
