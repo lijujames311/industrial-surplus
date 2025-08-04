@@ -1,4 +1,19 @@
+async function loadCatalog() {
+  try {
+    const response = await fetch('catalog.json');
+    const data = await response.json();
+    const grid = document.getElementById('catalog-grid');
 
+    const params = new URLSearchParams(window.location.search);
+    const query = (params.get('q') || '').toLowerCase();
+    const items = query
+      ? data.filter(item =>
+          item.brand.toLowerCase().includes(query) ||
+          item.grinding_type.toLowerCase().includes(query) ||
+          item.description.toLowerCase().includes(query))
+      : data;
+
+    items.forEach(item => {
       const card = document.createElement('div');
       card.className = 'card';
       card.innerHTML = `
@@ -13,4 +28,9 @@
       `;
       grid.appendChild(card);
     });
+  } catch (err) {
+    console.error('Failed to load catalog', err);
+  }
+}
 
+document.addEventListener('DOMContentLoaded', loadCatalog);

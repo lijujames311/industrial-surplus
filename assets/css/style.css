@@ -3,6 +3,9 @@ header { background: #333; color: #fff; padding: 1rem; }
 header h1 { margin: 0; font-size: 1.5rem; }
 nav a { color: #fff; margin-right: 1rem; text-decoration: none; }
 nav a:hover { text-decoration: underline; }
+.search-form { display: inline-block; }
+.search-form input[type="search"] { padding: 0.3rem; border-radius: 4px; border: none; }
+.search-form button { padding: 0.35rem 0.6rem; margin-left: 0.3rem; border: none; border-radius: 4px; background: #555; color: #fff; cursor: pointer; }
 .btn { display: inline-block; padding: 0.5rem 1rem; background: #333; color: #fff; text-decoration: none; border-radius: 4px; }
 .hero { padding: 2rem; text-align: center; background: #f4f4f4; }
 .hero .btn { margin-top: 1rem; }
