@@ -1,6 +1,7 @@
 # Industrial Surplus Hub – Static Catalog Site
 
 
+
 ## Structure
 
 ```
@@ -15,11 +16,7 @@
 
 ## Development
 
-All pages are static and can be previewed locally by opening `index.html` in your browser.  If you wish to modify catalog entries or add new items in the future:
 
-1.  Update `catalog.csv` with a new row using the existing header structure.  Keep descriptions short and avoid any proprietary information.
-2.  Place two optimized images for the item into `assets/web_images/` and reference them in the `photo1` and `photo2` columns (omit `photo2` if you only have one photo).
-3.  Rebuild the HTML files by running the Python generator script used during initial creation (not included here).  For simple updates you can manually duplicate an existing detail page and adjust the fields.
 
 ## Deployment on Cloudflare Pages
 
