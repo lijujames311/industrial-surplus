@@ -7,15 +7,27 @@ async function loadFeatured() {
       const card = document.createElement('div');
       card.className = 'card';
 
-      card.innerHTML = `
-        <a href="${item.slug}.html">
-          <img src="${item.photo1}" alt="${item.brand} ${type}" loading="lazy">
-        </a>
-        <div class="card-body">
+      const link = document.createElement('a');
+      link.href = `${item.slug}.html`;
 
-          <a class="btn-small" href="${item.slug}.html">View Details</a>
-        </div>
-      `;
+      const img = document.createElement('img');
+      const type = item.item_type || item.grinding_type || '';
+      img.src = item.photo1;
+      img.alt = `${item.brand} ${type}`.trim();
+      img.loading = 'lazy';
+      link.appendChild(img);
+
+      const cardBody = document.createElement('div');
+      cardBody.className = 'card-body';
+
+      const btn = document.createElement('a');
+      btn.className = 'btn-small';
+      btn.href = `${item.slug}.html`;
+      btn.textContent = 'View Details';
+      cardBody.appendChild(btn);
+
+      card.appendChild(link);
+      card.appendChild(cardBody);
       list.appendChild(card);
     });
   } catch (err) {
