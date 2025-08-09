@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wheel-1",
+    "name": "Rad​iac 16in Wheel",
+    "type": "Wheel",
+    "brand": "Radiac",
+    "photo": "https://via.placeholder.com/600x400.jpg",
+    "description": "Large vitrified wheel with 16-inch diameter for coarse grinding jobs."
+  },
+  {
+    "id": "tooling-1",
+    "name": "HSS Gear Hob Set",
+    "type": "Tooling",
+    "brand": "Ash Gear",
+    "photo": "https://via.placeholder.com/600x400.jpg",
+    "description": "Set of high-speed steel hobs suitable for common gear cutting tasks."
+  },
+  {
+    "id": "machine-1",
+    "name": "Bench Gear Tester",
+    "type": "Machine",
+    "brand": "Gleason",
+    "photo": "https://via.placeholder.com/600x400.jpg",
+    "description": "Compact benchtop machine for verifying small gear profiles."
+  }
+]
