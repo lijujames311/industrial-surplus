@@ -16,6 +16,9 @@
 
 ## Development
 
+This project is a static site and does not require Node.js tooling or tests.
+The provided `package.json` exists solely so CI environments that run
+`npm test` succeed by printing a placeholder message and exiting cleanly.
 
 
 ## Deployment on Cloudflare Pages
