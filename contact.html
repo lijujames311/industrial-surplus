@@ -1,32 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | Industrial Surplus Hub</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Industrial Surplus Hub</title>
+  <meta name="description" content="Get a quote or request detailed specs (under NDA) for grinding wheels and tooling.">
+  <meta name="build" content="manual">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <script>
+    window.tailwind = window.tailwind || {}; window.tailwind.config = { theme: { extend: { colors: { brand: { DEFAULT:'#bef264', dark:'#a3e635'} }}}};
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="/assets/site.js"></script>
 </head>
-<body>
-<header>
+<body class="bg-zinc-950 text-zinc-100">
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-black/50 backdrop-blur">
+    <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 font-semibold tracking-tight">
+        <img src="/assets/logo-mark.svg" alt="ISH" class="h-7 w-7">
+        <span class="hidden sm:inline">Industrial Surplus Hub</span>
+      </a>
+      <nav class="flex items-center gap-6 text-sm">
+        <a class="text-zinc-300 hover:text-white" href="/">Home</a>
+        <a class="text-zinc-300 hover:text-white" href="/inventory.html">Inventory</a>
+        <a class="text-white font-semibold" href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
+  <main class="mx-auto max-w-3xl px-4 py-14">
+    <h1 class="text-3xl font-bold">Contact</h1>
+    <p class="mt-2 text-zinc-300">Tell us what you need. We’ll respond fast with availability and pricing. For protected geometry, we’ll share critical details under NDA only.</p>
 
-    <label for="company">Company</label>
-    <input type="text" id="company" name="company">
+    <form id="contact-form" class="mt-8 grid grid-cols-1 gap-4">
+      <input class="rounded-xl bg-zinc-900/80 ring-1 ring-white/10 px-3 py-2 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-brand/50" name="name" placeholder="Your name" required>
+      <input class="rounded-xl bg-zinc-900/80 ring-1 ring-white/10 px-3 py-2 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-brand/50" name="email" type="email" placeholder="Email" required>
+      <input class="rounded-xl bg-zinc-900/80 ring-1 ring-white/10 px-3 py-2 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-brand/50" name="company" placeholder="Company (optional)">
+      <textarea class="rounded-xl bg-zinc-900/80 ring-1 ring-white/10 px-3 py-2 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-brand/50 min-h-[140px]" name="message" placeholder="What are you looking for? Include machine model and max OD if relevant." required></textarea>
+      <button class="inline-flex items-center gap-2 rounded-xl px-4 py-2 w-fit bg-brand text-black font-semibold hover:bg-brand-dark transition ring-1 ring-black/10" type="submit">Send</button>
+    </form>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
+    <div class="mt-10 text-sm text-zinc-400">
+      <p>Email: <a class="text-brand hover:underline" href="mailto:info@industrialsurplushub.ca">info@industrialsurplushub.ca</a></p>
+      <p>Location: Oakville, Ontario, Canada</p>
+    </div>
+  </main>
 
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="6" required></textarea>
-
-    <button type="submit" class="btn">Send Message</button>
-  </form>
-</main>
-<footer>
-  <p>&copy; 2025 Industrial Surplus Hub. Updated on August 4, 2025.</p>
-</footer>
+  <footer class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 py-8 text-sm flex items-center justify-between">
+      <p>© <span data-year></span> Industrial Surplus Hub</p>
+      <p class="text-zinc-400">Build: <code id="build"></code></p>
+    </div>
+  </footer>
 </body>
 </html>
