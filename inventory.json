@@ -1,0 +1,7 @@
+[
+  { "code": "KAPP-001", "description": "CBN Grinding Wheel – OD 300mm, Width 40mm, Bore 127mm", "image": "/assets/KAPP-001.jpg" },
+  { "code": "KAPP-002", "description": "CBN Grinding Wheel – OD 275mm, Width 35mm, Bore 127mm", "image": "/assets/KAPP-002.jpg" },
+  { "code": "KAPP-003", "description": "CBN Grinding Wheel – OD 320mm, Width 45mm, Bore 203mm", "image": "/assets/KAPP-003.jpg" },
+  { "code": "KAPP-004", "description": "CBN Grinding Wheel – OD 250mm, Width 30mm, Bore 127mm", "image": "/assets/KAPP-004.jpg" },
+  { "code": "KAPP-005", "description": "CBN Grinding Wheel – OD 350mm, Width 50mm, Bore 203mm", "image": "/assets/KAPP-005.jpg" }
+]

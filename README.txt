@@ -1,0 +1,1 @@
+Place real JPG images in this folder matching the names in inventory.json (e.g., KAPP-001.jpg).
