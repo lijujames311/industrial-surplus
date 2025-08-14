@@ -1,0 +1,224 @@
+{
+  "wheels": [
+    {
+      "id": "W001",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-001",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-001"
+    },
+    {
+      "id": "W002",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-002",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-002"
+    },
+    {
+      "id": "W003",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-003",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-003"
+    },
+    {
+      "id": "W004",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-004",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-004"
+    },
+    {
+      "id": "W005",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-005",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-005"
+    },
+    {
+      "id": "W006",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-006",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-006"
+    },
+    {
+      "id": "W007",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-007",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-007"
+    },
+    {
+      "id": "W008",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-008",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-008"
+    },
+    {
+      "id": "W009",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-009",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-009"
+    },
+    {
+      "id": "W010",
+      "brand": "Kapp Niles",
+      "series": "Electroplated CBN Gear Grinding Wheel",
+      "wheel_code": "KN-WHEEL-010",
+      "photo_urls": [
+        "/assets/images/placeholder-wheel.jpg"
+      ],
+      "status": "Available",
+      "specs": {
+        "od_mm": null,
+        "width_mm": null,
+        "bore_mm": null,
+        "module": null,
+        "pressure_angle_deg": null,
+        "helix_angle_deg": null,
+        "profile_type": "Involute",
+        "mounting": null
+      },
+      "notes": "Public-safe listing. Specs TBD. Contact for pricing.",
+      "inventory_code": "ISH-KN-010"
+    }
+  ]
+}
